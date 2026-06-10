@@ -1,1 +1,24 @@
+Wireshark Traffic Analysis Findings
 
+1. DNS Analysis
+- Observed DNS queries and responses.
+- Domain names were resolved to IP addresses.
+- Examples included chrome.cloudflare-dns.com, grammarly.net, and microsoft.com.
+
+2. TCP Analysis
+- TCP communication was observed between the local host and remote servers.
+- ACK and FIN-ACK packets were identified.
+- Reliable communication was established through TCP sessions.
+
+3. TLS Analysis
+- TLSv1.2 and TLSv1.3 encrypted traffic was observed.
+- Application data was encrypted and protected from direct inspection.
+- HTTPS communication was successfully identified.
+
+4. Security Observations
+- No suspicious traffic was detected during the capture period.
+- Most traffic was encrypted using modern TLS protocols.
+- DNS resolution occurred normally before secure communication.
+
+Conclusion:
+The network traffic demonstrated normal web browsing behavior with secure encrypted communications.
